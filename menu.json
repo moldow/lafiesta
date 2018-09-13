@@ -1,0 +1,106 @@
+[
+  {
+    "katagori": "snacks",
+    "pris": "40kr",
+    "billede": "guacamole",
+    "beskrivelse": "Hjemmelavet spicy guacamole",
+    "navn": "guacamole",
+    "id": 1
+  },
+  {
+    "katagori": "snacks",
+    "pris": "80kr",
+    "billede": "combo",
+    "beskrivelse": "en combo med tre hjemmelavet tomatsalsas og guacamole",
+    "navn": "combo",
+    "id": 2
+  },
+  {
+    "katagori": "snacks",
+    "pris": "100kr",
+    "billede": "tacoforret",
+    "beskrivelse": "Tallerken med hjemmelavet tortilla, tomatsalsa, cheddar og guacamole",
+    "navn": "taco tallerken",
+    "id": 3
+  },
+  {
+    "katagori": "snacks",
+    "pris": "75kr",
+    "billede": "majs",
+    "beskrivelse": "Grillede majskolber med cheddar, koriander og chili",
+    "navn": "majskolber",
+    "id": 4
+  },
+  {
+    "katagori": "main",
+    "pris": "100kr",
+    "billede": "chilibeeftaco",
+    "beskrivelse": "Hjemmelavet tacos med chili marineret oksekød dertil koriander og løg",
+    "navn": "chili beef taco",
+    "id": 5
+  },
+  {
+    "katagori": "main",
+    "pris": "100kr",
+    "billede": "pulledporktaco",
+    "beskrivelse": "Pulled pork med syltede rødløg og koriander",
+    "navn": "pulled pork taco",
+    "id": 6
+  },
+  {
+    "katagori": "main",
+    "pris": "100kr",
+    "billede": "ananasmarineret taco",
+    "beskrivelse": "Ananas marineret oksekød med syltede agurk, kål og sesamfrø",
+    "navn": "ananas marineret taco",
+    "id": 7
+  },
+  {
+    "katagori": "main",
+    "pris": "100kr",
+    "billede": "enchilada",
+    "beskrivelse": "enchilada med kylling, cheddar og koriander",
+    "navn": "enchilada",
+    "id": 8
+  },
+  {
+    "katagori": "main",
+    "pris": "100kr",
+    "billede": "shrimptaco",
+    "beskrivelse": "Taco med stegte rejer, kål og forårsløg",
+    "navn": "shrimp taco",
+    "id": 9
+  },
+  {
+    "katagori": "drinks",
+    "pris": "85kr",
+    "billede": "mexicanskmojito",
+    "beskrivelse": "Mexicansk mojito med rom og mynte",
+    "navn": "mexicansk mojito",
+    "id": 10
+  },
+  {
+    "katagori": "drinks",
+    "pris": "85kr",
+    "billede": "tequilasunrise",
+    "beskrivelse": "tequila sunrise med ananasjuice og tequlia",
+    "navn": "tequila sunrise",
+    "id": 11
+  },
+  {
+    "katagori": "drinks",
+    "pris": "50kr",
+    "billede": "sol",
+    "beskrivelse": "mexicansk sol øl",
+    "navn": "Sol beer",
+    "id": 12
+  },
+  {
+    "katagori": "drinks",
+    "pris": "35kr",
+    "billede": "appelsinjuice",
+    "beskrivelse": "frisk presset appelsin juice",
+    "navn": "appelsin juice",
+    "id": 13
+  }
+]
