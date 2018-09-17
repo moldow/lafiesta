@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>La Fiests</title>
+
+    <!--FONTE-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+
+    <section id="modal">
+        <button>Luk</button>
+        <div id="modal-content">
+            <div class="modal_next">
+                <img class="modal-billede" src="" alt="">
+                <h2 class="modal-navn"></h2>
+                <p class="beskrivelse"></p>
+            </div>
+        </div>
+    </section>
+
+    <img src="billeder/logo.png" alt="Logo">
+
+
+    <header>
+
+
+        <nav>
+
+            <button class="menu-item" data-Kategori="snacks">Snacks</button>
+
+            <button class="menu-item" data-Kategori="main">Main</button>
+
+            <button class="menu-item" data-Kategori="drinks">Drinks</button>
+
+
+
+        </nav>
+
+    </header>
+
+
+
+
+
+
+    <main class="retContainer"></main>
+
+    <template class="retTemplate">
+        <article class="ret">
+            <h2 class="data-navn" ></h2>
+            <img class="data-billede"  src="" alt="">
+
+
+            <p class="data-beskrivelse" ></p>
+            <p>Pris: <span class="data-pris">,-</span> </p>
+
+        </article>
+
+
+
+    </template>
+
+
+
+
+
+
+
+
+
+
+    <footer>
+
+        <img src="billeder/logo.png" alt="Logo">
+
+
+
+    </footer>
+
+    <script src="index-modal.js"></script>
+</body>
+
+</html>

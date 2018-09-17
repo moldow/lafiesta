@@ -1,0 +1,149 @@
+html {
+    margin: 0 auto;
+}
+
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(135, 206, 235);
+}
+
+
+
+/*BURGERMENU*/
+
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+
+/*MODEL*/
+
+#modal {
+    background-color: rgba(0, 0, 0, .7);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    text-align: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 1s;
+}
+
+.modal_next {
+    column-count: 2;
+
+}
+
+#modal-content {
+    width: 70vw;
+    height: 70vh;
+    background-color: rgba(250, 250, 250, 1);
+    margin: auto;
+}
+
+#modal.vis {
+    /*display: block;*/
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s;
+}
+
+#modal img {
+    height: 50vh;
+    width: 30vw;
+}
+
+.retContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.item-a {
+    grid-column-start: 2;
+}
+
+.item-b {
+    grid-column-start: 3;
+}
+
+.menu {
+    background-color: blue;
+    padding: 30px 30px 30px 30px;
+
+
+
+}
+
+.box {
+    background-color: aqua;
+    padding: 30px 30px 30px 30px;
+    grid-row-start: 1;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+    .burger {
+        display: none;
+    }
+    nav {
+        max-height: 200px;
+    }
+    li {
+        display: inline-block;
+    }
+}
+
+
+@media only screen and (max-width: 1229px) {
+    .grid {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .retContainer {
+        grid-template-columns: 1fr 1fr;
+    }
+    .item-a {
+        grid-row-start: 1;
+        grid-column-start: 1;
+    }
+    .item-b {
+        grid-row-start: 2;
+        grid-column-start: 1;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .ret img {
+        width: 100%
+    }
+    .retContainer {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .ret img {
+        width: 100%
+    }
+    .retContainer {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,33 @@
+body {
+    background-image: url(billeder/splashimage.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+
+
+}
+
+
+#background a {
+    position: absolute;
+    top: 40vw;
+    left: 35vw;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: #666666;
+    font-size: 2em;
+}
+
+
+
+
+
+@media only screen and (max-width: 830px) {
+    a {
+        position: absolute;
+        top: 150vw;
+        left: 33vw;
+    }
+
+}
